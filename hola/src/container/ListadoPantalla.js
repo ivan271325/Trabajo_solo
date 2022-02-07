@@ -40,7 +40,7 @@ function ListadoPantalla() {
         <Text style={styles.frutas}> Frutas </Text>
         <ModalDropdown style={styles.select} textStyle={styles.opciones} defaultValue='Listado' 
           dropdownStyle={styles.modal}
-          options={['Pina', 'Manzana','Melocoton', 'Uvas','Naranja','Kiwi','Platano','Pera']}
+          options={['Piña', 'Manzana','Melocoton', 'Uvas','Naranja','Kiwi','Platano','Pera']}
           onSelect={(id, fruit) => setFruit(fruit)}/>
       </View>
       <View style={styles.busqueda}>

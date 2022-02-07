@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Text, View, Image, FlatList, ScrollView, RefreshControl } from 'react-native';
+import { Text, View, Image, FlatList, RefreshControl } from 'react-native';
 import styles from '../styles/styles';
 
 function InformacionPantalla() {
@@ -42,7 +42,7 @@ function InformacionPantalla() {
       return <Image style={styles.frutaLogo} source={ require('../imagenes/melocoton.png')}/>
       else if ('Naranja'===item.name)
       return <Image style={styles.frutaLogo} source={ require('../imagenes/naranja.png')}/>
-      else if ('Pina'===item.name)
+      else if ('Piña'===item.name)
       return <Image style={styles.frutaLogo} source={ require('../imagenes/pina.png')}/>
       else if ('Platano'===item.name)
       return <Image style={styles.frutaLogo} source={ require('../imagenes/platano.png')}/>

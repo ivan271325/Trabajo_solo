@@ -14,10 +14,6 @@ function App() {
 
       <Tab.Navigator
         screenOptions={({ route }) => ({ 
-          // tabBarOptions: {
-          //   style: {
-          //       backgroundColor: 'blue',
-          //   }},
           tabBarIcon: ({ focused, color, size }) => {
             let iconName;
             if (route.name === 'Listado') {
